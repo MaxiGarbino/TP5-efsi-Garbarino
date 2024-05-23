@@ -5,10 +5,9 @@ const Lista = ({tareas,setTareas}) =>{
 
     return(
         <>
-        <ul>
-            {tareas.map(l => <> <Tarea id = {l.Id} texto={l.texto} check={l.check} tiempoCreado={l.tiempoCreado} tiempoTerminado = {l.tiempoTerminado} tareas ={tareas} setTareas = {setTareas} > </Tarea> </>)}
-        </ul>
-        
+        <form>
+            {tareas.map(l => <Tarea Texto={l.Texto} Check={l.Check} TiempoCreado={l.TiempoCreado} TiempoTerminado = {l.TiempoTerminado} tareas ={tareas} setTareas = {setTareas} ></Tarea>)}
+        </form>
         </>
     );
 }

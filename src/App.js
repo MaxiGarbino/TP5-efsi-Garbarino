@@ -1,33 +1,32 @@
-import logo from './logo.svg';
-import Lista from './components/Lista';
+
+import Lista from './components/Lista/Lista';
 import './App.css';
 import { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap';
+import TareaInput from './components/TareaInput/TareaInput';
+import TareaRapida from './components/TareaRapida/TareaRapida';
 
 function App() {
   
   const [tareas,setTareas] = useState([
     {
-      Id: 1,
       Texto: "Limpiar mi cuarto",
       Check: false,
-      TiempoCreado: Date.now(),
+      TiempoCreado: new Date(8.64e15),
       TiempoTerminado: null
     },
     {
-      Id:2,
       Texto: "Lavar la ropa",
       Check: true,
-      TiempoCreado: Date.now(),
+      TiempoCreado: new Date(8.64e15+1),
       TiempoTerminado: null
     }
 ]);
   
   return (
     <>
+    <TareaInput tareas={tareas} setTareas={setTareas}></TareaInput>
     <Lista tareas={tareas} setTareas={setTareas}></Lista>
-
+    <TareaRapida tareas={tareas}></TareaRapida>
     </>
   );
 }
