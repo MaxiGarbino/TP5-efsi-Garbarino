@@ -13,7 +13,8 @@ const Tarea = (
         const buscarIndex = (fecha) =>{
             return fecha === TiempoCreado;
         }
-        tareas.findIndex(buscarIndex())
+        let indexBuscado = tareas.findIndex(buscarIndex())
+        console.log("hola", indexBuscado);
         setTareas([
             {
                 Texto: Texto,
