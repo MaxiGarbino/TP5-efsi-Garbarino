@@ -18,7 +18,7 @@ const TareaRapida = ({ tareas }) => {
 
                 }
             }
-            console.log(t.TiempoTerminado, t.Nombre);
+
         });
     }
 

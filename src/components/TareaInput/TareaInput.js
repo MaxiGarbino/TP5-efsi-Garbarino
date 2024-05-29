@@ -21,7 +21,7 @@ const TareaInput = ({ tareas, setTareas }) => {
                 <form onSubmit={agregarTarea}>
                     <label for='Texto'></label>
                     <input type="text" id='Texto' name='Texto' placeholder="Escribi lo que tenes q hacer aca"></input>
-
+                    <input type="submit"></input>
                 </form>
             </div>
         </div>

@@ -11,13 +11,13 @@ function App() {
     {
       Texto: "Limpiar mi cuarto",
       Check: false,
-      TiempoCreado: new Date(8.64e15),
+      TiempoCreado: Date.now(),
       TiempoTerminado: null
     },
     {
       Texto: "Lavar la ropa",
       Check: true,
-      TiempoCreado: new Date(8.64e15+1),
+      TiempoCreado: Date.now()+100,
       TiempoTerminado: null
     }
 ]);
