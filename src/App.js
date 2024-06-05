@@ -12,14 +12,14 @@ function App() {
       Texto: "Limpiar mi cuarto",
       Check: false,
       TiempoCreado: Date.now(),
-      TiempoTerminado: null
+      TiempoTerminado: 10
     },
-    {
+    /*{
       Texto: "Lavar la ropa",
       Check: true,
       TiempoCreado: Date.now()+100,
-      TiempoTerminado: null
-    }
+      TiempoTerminado: 10
+    }*/
 ]);
   
   return (

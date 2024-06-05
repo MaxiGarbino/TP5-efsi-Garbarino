@@ -3,3 +3,18 @@
     text-decoration:line-through;
     color: gray;
 }
+.centrar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.centrarTexto
+{
+    display: flex;
+    text-align: center;
+    
+}
+p
+{
+    margin: 0;
+}
