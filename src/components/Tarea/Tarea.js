@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Tarea.css";
+
 const Tarea = ({
   /*d = {l.Id} texto={l.texto} check={l.check} tiempoCreado={l.tiempoCreado} tiempoTerminado = {l.tiempoTerminado}*/
   Texto = "default tarea",
@@ -37,7 +38,7 @@ const Tarea = ({
       <ul className="tarea">
         
         {
-            chequeado ?  <div className="centrar"><input type="checkbox" checked className="checkeado" onClick={cambioEstadoCheck}></input><p className="checkeado">{Texto}</p><button onClick={eliminarTarea} class="button elimnar u-full-width">Eliminar ×</button></div>  :  <div className="centrar"><input type="checkbox"  onClick={cambioEstadoCheck}></input><p>{Texto}</p><button onClick={eliminarTarea} class="button elimnar u-full-width">Eliminar ×</button></div>
+            chequeado ?  <div className="centrar"><input type="checkbox" checked className="checkeado" onClick={cambioEstadoCheck}></input><p className="checkeado">{Texto}</p></div>  :  <div className="centrar"><input type="checkbox"  onClick={cambioEstadoCheck}></input><p>{Texto}</p><button onClick={eliminarTarea} class="button elimnar u-full-width">X</button></div>
            
         }
         

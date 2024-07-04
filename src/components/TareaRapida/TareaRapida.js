@@ -24,7 +24,7 @@ const TareaRapida = ({ tareas }) => {
 
     return (
         <>
-            <div class="input-group mb-3">
+            <div class="input-group ">
                 <button class="input-group-text" onClick={tareaMasRapida}>Tarea mas rapida en hacer</button>
                 <div id="tareaMasRapida"></div>
             </div>

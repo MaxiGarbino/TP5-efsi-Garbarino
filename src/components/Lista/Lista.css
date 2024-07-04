@@ -1,0 +1,13 @@
+form
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32.5px;
+}

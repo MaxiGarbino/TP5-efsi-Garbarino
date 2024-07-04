@@ -18,7 +18,7 @@ const TareaInput = ({ tareas, setTareas }) => {
     return (
         <div>
             <div class="input-group mb-3">
-                <form onSubmit={agregarTarea}>
+                <form onSubmit={agregarTarea} className='form'>
                     <label for='Texto'></label>
                     <input type="text" id='Texto' name='Texto' placeholder="Escribi lo que tenes q hacer aca"></input>
                     <input type="submit"></input>
