@@ -23,11 +23,11 @@ function App() {
 ]);
   
   return (
-    <>
+    <div className='result'>
     <TareaInput tareas={tareas} setTareas={setTareas}></TareaInput>
     <Lista tareas={tareas} setTareas={setTareas}></Lista>
     <TareaRapida tareas={tareas}></TareaRapida>
-    </>
+    </div>
   );
 }
 
