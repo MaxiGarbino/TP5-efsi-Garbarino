@@ -3,3 +3,28 @@
     display: flex;
     flex-direction: row;
 }
+.inagregar
+{
+    border-width: 2.5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    justify-content: center;
+    width: 100px;
+    border-style:solid;
+    background-color: rgb(30, 153, 30);
+    color: white;
+    border-color: rgb(34, 173, 34);
+    border-width: 1px;
+    margin-left: 5px;
+}
+.intext
+{
+    width: 500px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-width: 2.5px;
+    border-color: black;
+    border-style:solid;
+    padding-left:10px ;
+}
+

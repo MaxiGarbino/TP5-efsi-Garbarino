@@ -9,5 +9,5 @@ form ul
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 32.5px;
+    padding-left: 0 !important; 
 }

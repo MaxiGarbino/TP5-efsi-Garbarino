@@ -24,24 +24,38 @@ const Tarea = ({
   };
   const eliminarTarea = (e) => {
     e.preventDefault();
-    if(window.confirm("¿Esta seguro de eliminar una tarea?")){
-        setTareas(
-            tareas.filter(e =>
-              e.TiempoCreado !== TiempoCreado
-            ));
+    if (window.confirm("¿Esta seguro de eliminar una tarea?")) {
+      setTareas(
+        tareas.filter(e =>
+          e.TiempoCreado !== TiempoCreado
+        ));
     }
-    
+
   }
 
   return (
     <>
       <ul className="tarea">
-        
+
         {
-            chequeado ?  <div className="centrar"><input type="checkbox" checked className="checkeado" onClick={cambioEstadoCheck}></input><p className="checkeado">{Texto}</p></div>  :  <div className="centrar"><input type="checkbox"  onClick={cambioEstadoCheck}></input><p>{Texto}</p><button onClick={eliminarTarea} class="button elimnar u-full-width">X</button></div>
-           
+          chequeado ?
+            <div className="centrar">
+              <div className="QWE">
+                <input type="checkbox" checked className="checkeado" onClick={cambioEstadoCheck}></input>
+                <p className="checkeado">{Texto}</p>
+              </div>
+              <button onClick={eliminarTarea} >X</button>
+            </div> :
+            <div className="centrar">
+              <div className="QWE">
+                <input type="checkbox" onClick={cambioEstadoCheck}></input>
+                <p>{Texto}</p>
+              </div>
+              <button onClick={eliminarTarea} >X</button>
+            </div>
+
         }
-        
+
       </ul>
     </>
   );

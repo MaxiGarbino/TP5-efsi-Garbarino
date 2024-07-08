@@ -8,28 +8,44 @@
 {
     display: flex;
     flex-direction:row;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
-    
+    border: 0px black solid;
+    border-radius: 25px;
+    border-width: 2.5px;
+    height: 100px;
+    border-style:solid;
 }
 .centrar p
 {
     margin-bottom: 1px;
 }
-.centrar button
-{
-    margin-left:10px;
-    padding-left:8.5px ;
-    padding-right:8.5px;
-    border-radius: 100px;
-    border: 0;
-}
-.centrar button :hover
-{
-    background-color: antiquewhite;
-}
+
 .tarea
 {
     margin-left: 0;
 
+}
+.QWE
+{
+    display: flex;
+    flex-direction:row;
+    margin-right: 52.5px;
+    margin-left: 40px;
+    width: 445px;
+}
+
+.QWE input[type="checkbox"]
+{
+    margin-right: 25px;
+    width: 50px;
+}
+
+.centrar button
+{
+    padding-left:8.5px ;
+    padding-right:8.5px;
+    border-radius: 100px;
+    border: 0;
+    margin-right: 35px;
 }
