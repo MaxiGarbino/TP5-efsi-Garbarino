@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.b18610a6.css",
-    "main.js": "/react-gh-pages/static/js/main.3fa28790.js",
-    "static/js/453.910d0aa1.chunk.js": "/react-gh-pages/static/js/453.910d0aa1.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.b18610a6.css.map": "/react-gh-pages/static/css/main.b18610a6.css.map",
-    "main.3fa28790.js.map": "/react-gh-pages/static/js/main.3fa28790.js.map",
-    "453.910d0aa1.chunk.js.map": "/react-gh-pages/static/js/453.910d0aa1.chunk.js.map"
+    "main.css": "/TP5-efsi-Garbarino/static/css/main.b18610a6.css",
+    "main.js": "/TP5-efsi-Garbarino/static/js/main.fad3c3ae.js",
+    "static/js/453.910d0aa1.chunk.js": "/TP5-efsi-Garbarino/static/js/453.910d0aa1.chunk.js",
+    "index.html": "/TP5-efsi-Garbarino/index.html",
+    "main.b18610a6.css.map": "/TP5-efsi-Garbarino/static/css/main.b18610a6.css.map",
+    "main.fad3c3ae.js.map": "/TP5-efsi-Garbarino/static/js/main.fad3c3ae.js.map",
+    "453.910d0aa1.chunk.js.map": "/TP5-efsi-Garbarino/static/js/453.910d0aa1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b18610a6.css",
-    "static/js/main.3fa28790.js"
+    "static/js/main.fad3c3ae.js"
   ]
 }
