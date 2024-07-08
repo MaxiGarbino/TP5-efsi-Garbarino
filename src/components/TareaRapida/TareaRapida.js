@@ -25,7 +25,7 @@ const TareaRapida = ({ tareas }) => {
     return (
         <>
             <div>
-                <button className='buttonTarRap' onClick={tareaMasRapida}>Tarea mas rapida en hacer</button>
+                <button className='buttonTarRap' onClick={tareaMasRapida}>Tarea mas rapida en terminar</button>
                 <div id="tareaMasRapida"></div>
             </div>
         </>
